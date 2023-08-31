@@ -1,0 +1,68 @@
+.uploadArea {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+display:none;
+  }
+  /* styles.css */
+.beautifulButton {
+   display: inline-block;
+  padding: 10px 20px;
+  background-color: #82c91e; /* Light green color */
+  color: white;
+  border: none;
+  border-radius: 20px; /* Round corners */
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  
+}
+
+.beautifulButton:hover {
+  background-color: #72b519; /* Slightly darker green on hover */
+  transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+
+  
+  .infoBox {
+ 
+    margin-top: 30px;
+    height: 20rem;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text */
+  }
+  
+  .icon {
+    /* font-size: 2rem; */
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .message {
+    /* font-size: 1.5rem;
+    margin-top: 8rem; */
+    font-size: 1.5rem;
+    margin-top: 8rem;
+  }
+
+ .big{
+    width: 90%;
+    margin: 0 auto; 
+  border: 1px dotted #ccc;
+  padding: 20px;
+  text-align:center;
+ }
+  
+
+
